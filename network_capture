@@ -1,0 +1,20 @@
+Live Network Packet Capture Summary
+
+Traffic Observed:
+
+DNS (udp.port==53)
+
+Purpose: Resolving domain names to IP addresses.
+
+HTTP (tcp.port==80)
+
+Purpose: Unencrypted web traffic.
+
+ICMP
+
+purpose: Connectivity testing.
+
+Additional Observations:
+
+TLS handshake packets indicate HTTPS traffic to google.com
+TCP SYN/SYN-ACK/ACK sequence visible during connection establishment.
